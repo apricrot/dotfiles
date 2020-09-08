@@ -1,0 +1,78 @@
+tap "buo/cask-upgrade"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/core"
+
+brew "openssl@1.1"
+brew "bat"
+brew "coreutils"
+brew "dfu-programmer"
+brew "dfu-util"
+brew "findutils"
+brew "fzf"
+brew "git"
+brew "gnupg"
+brew "grep"
+brew "readline"
+brew "sqlite"
+brew "xz"
+brew "mas"
+brew "pyenv"
+brew "ripgrep"
+brew "subversion"
+brew "testdisk"
+brew "vim"
+brew "watch"
+brew "wget"
+brew "youtube-dl"
+brew "zsh"
+brew "zlib"
+# brew "mackup"
+# brew "nmap"
+
+cask "appcleaner"
+cask "audio-hijack"
+cask "balenaetcher"
+cask "cycling74-max"
+cask "coconutbattery"
+cask "docker"
+cask "firefox"
+cask "font-blex-mono-nerd-font"
+cask "font-caskaydia-cove-nerd-font"
+cask "font-dejavu-sans-mono-nerd-font"
+cask "font-droid-sans-mono-nerd-font"
+cask "font-fira-code-nerd-font"
+cask "font-sauce-code-pro-nerd-font"
+cask "grandperspective"
+cask "gswitch"
+cask "iterm2"
+cask "keka"
+cask "lastpass"
+cask "lulu"
+cask "monero-wallet"
+cask "musicbrainz-picard"
+cask "private-internet-access"
+cask "signal"
+cask "steam"
+cask "teensy"
+cask "transmission"
+# cask "cheatsheet"
+# cask "iina"
+# cask "istat-menus"
+# cask "karabiner-elements"
+# cask "numi"
+# cask "gitkraken"
+# cask "tor-browser"
+
+mas "AdGuard for Safari", id: 1440147259
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Magnet", id: 441258766
+mas "Mirror for Samsung TV", id: 1107644799
+mas "Notability", id: 736189492
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+# mas "Grammarly for Safari", id: 1462114288
+# mas "Xcode", id: 497799835
