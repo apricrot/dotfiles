@@ -1,0 +1,53 @@
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
+brew analytics off
+
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+/etc/shells
+/usr/local/bin/zsh
+
+# Photos optimize storage
+
+# Manual install apps VMware-fusion serialosc xcode coconutbattery
+
+# Firefox
+Profile
+ $HOME/Library/Application Support/Firefox/Profiles/
+ 
+ bookmarks
+
+# coconut battery format
+%r %p%
+
+# coconut battery import history
+
+# vim plug
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+# karabiner
+complex modifications caps to esc and control
+
+# iterm import iTerm2 profiles
+
+#iterm shell integration
+
+###############
+# iterm touch id
+vi /etc/pam.d/sudo
+
+# sudo: auth account password session
+auth       sufficient     pam_tid.so
+####################
+
+# Terminal.app import Spacegray.terminal
+
+# Finder: disable window animations and Get Info animations
+defaults write com.apple.finder DisableAllAnimations -bool true
+
+# Remove the auto-hiding Dock delay
+defaults write com.apple.dock autohide-delay -float 0
+# Remove the animation when hiding/showing the Dock
+defaults write com.apple.dock autohide-time-modifier -float 0
+##########################################
